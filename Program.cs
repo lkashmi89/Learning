@@ -18,7 +18,7 @@ namespace armstrong_number
             {
                 rem = num % 10;
                 sum = sum + rem * rem * rem;
-                num = num / 10;
+                num = num / 10;//small
             }
             if(temp==sum)
             {
